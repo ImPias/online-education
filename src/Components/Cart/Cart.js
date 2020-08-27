@@ -15,7 +15,7 @@ const Cart = (props) => {
                     <h5 className="card-title">Order Summary</h5>
                     <h6 className="card-subtitle mb-2 text-muted">Courses Ordered: {cart.length}</h6>
                     <h6 className="card-subtitle mb-2 text-muted">Total Amount: {total}</h6>
-                    
+                    <button className="btn btn-outline-primary my-2 my-sm-0" type="submit">View cart</button>
                 </div>
             </div>
         </div>

@@ -14,8 +14,7 @@ const Courses = (props) => {
                                 <p className="card-text">{crs.trainer}</p>
                             </div>
                             <h5 className="card-title">${crs.price}</h5>
-                            {/* <a href="/enroll-now" className="btn btn-primary">Enroll now</a> */}
-                            <button onClick={() => props.handleEnrollNow(courses)} className="btn btn-primary">Enroll now</button>
+                            <button onClick={() => props.handleEnrollNow(crs)} className="btn btn-primary">Enroll now</button>
                         </div>
                     )
                 }
